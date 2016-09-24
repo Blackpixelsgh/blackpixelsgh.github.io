@@ -9,8 +9,14 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.container {
+    width: 100%;
+}
+
 .black_bg{
+/*
   background-image: url("../img/black_bg.jpg");
+*/  
   background-repeat: repeat;
   background-position: center;
 }
@@ -20,7 +26,9 @@ body {
 }
 
 .white_bg{
+   /* 
   background-image: url("../img/white_bg.jpg");
+  */
 }
 
 
@@ -357,7 +365,9 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
+        /*
+        font-style: italic;
+        */
     line-height: 22px;
 }
 
@@ -380,8 +390,10 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
+        /*
         font-style: italic;
-        line-height: 40px;
+        */
+        line-height: 80px;
     }
 
     header .intro-text .intro-heading {
